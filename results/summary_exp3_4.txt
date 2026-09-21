@@ -1,0 +1,62 @@
+--- Experiment 3: int_bench width=2 ---
+system.cpu.numCycles                         34071024                       # Number of cpu cycles simulated (Cycle)
+system.cpu.ipc                               1.174351                       # IPC: instructions per cycle (core level) ((Count/Cycle))
+system.cpu.branchPred.condPredicted           2002562                       # Number of conditional branches predicted (Count)
+system.cpu.branchPred.condIncorrect               838                       # Number of conditional branches incorrect (Count)
+system.cpu.iew.iqFullEvents                         5                       # Number of times the IQ has become full, causing a stall (Count)
+system.cpu.thread_0.numInsts                 40011330                       # Number of Instructions committed (Count)
+system.cpu.thread_0.numOps                   48021589                       # Number of Ops committed (Count)
+system.cpu.thread_0.numMemRefs                      0                       # Number of Memory References (Count)
+
+--- Experiment 3: int_bench width=4 ---
+system.cpu.numCycles                         26064481                       # Number of cpu cycles simulated (Cycle)
+system.cpu.ipc                               1.535090                       # IPC: instructions per cycle (core level) ((Count/Cycle))
+system.cpu.branchPred.condPredicted           2003234                       # Number of conditional branches predicted (Count)
+system.cpu.branchPred.condIncorrect               864                       # Number of conditional branches incorrect (Count)
+system.cpu.iew.iqFullEvents                        15                       # Number of times the IQ has become full, causing a stall (Count)
+system.cpu.thread_0.numInsts                 40011330                       # Number of Instructions committed (Count)
+system.cpu.thread_0.numOps                   48021589                       # Number of Ops committed (Count)
+system.cpu.thread_0.numMemRefs                      0                       # Number of Memory References (Count)
+
+--- Experiment 3: fp_bench width=2 ---
+system.cpu.numCycles                         36070754                       # Number of cpu cycles simulated (Cycle)
+system.cpu.ipc                               0.998345                       # IPC: instructions per cycle (core level) ((Count/Cycle))
+system.cpu.branchPred.condPredicted           2002503                       # Number of conditional branches predicted (Count)
+system.cpu.branchPred.condIncorrect               833                       # Number of conditional branches incorrect (Count)
+system.cpu.iew.iqFullEvents                         5                       # Number of times the IQ has become full, causing a stall (Count)
+system.cpu.thread_0.numInsts                 36011061                       # Number of Instructions committed (Count)
+system.cpu.thread_0.numOps                   50021202                       # Number of Ops committed (Count)
+system.cpu.thread_0.numMemRefs                      0                       # Number of Memory References (Count)
+
+--- Experiment 3: fp_bench width=4 ---
+system.cpu.numCycles                         24064257                       # Number of cpu cycles simulated (Cycle)
+system.cpu.ipc                               1.496454                       # IPC: instructions per cycle (core level) ((Count/Cycle))
+system.cpu.branchPred.condPredicted           2002978                       # Number of conditional branches predicted (Count)
+system.cpu.branchPred.condIncorrect               855                       # Number of conditional branches incorrect (Count)
+system.cpu.iew.iqFullEvents                        15                       # Number of times the IQ has become full, causing a stall (Count)
+system.cpu.thread_0.numInsts                 36011061                       # Number of Instructions committed (Count)
+system.cpu.thread_0.numOps                   50021202                       # Number of Ops committed (Count)
+system.cpu.thread_0.numMemRefs                      0                       # Number of Memory References (Count)
+
+--- Experiment 3: mem_bench width=2 ---
+system.cpu.numCycles                         32545177                       # Number of cpu cycles simulated (Cycle)
+system.cpu.ipc                               0.864244                       # IPC: instructions per cycle (core level) ((Count/Cycle))
+system.cpu.branchPred.condPredicted           1707034                       # Number of conditional branches predicted (Count)
+system.cpu.branchPred.condIncorrect              1028                       # Number of conditional branches incorrect (Count)
+system.cpu.iew.iqFullEvents                    818801                       # Number of times the IQ has become full, causing a stall (Count)
+system.cpu.thread_0.numInsts                 28126983                       # Number of Instructions committed (Count)
+system.cpu.thread_0.numOps                   36592142                       # Number of Ops committed (Count)
+system.cpu.thread_0.numMemRefs                      0                       # Number of Memory References (Count)
+
+--- Experiment 3: mem_bench width=4 ---
+system.cpu.numCycles                         30834934                       # Number of cpu cycles simulated (Cycle)
+system.cpu.ipc                               0.912179                       # IPC: instructions per cycle (core level) ((Count/Cycle))
+system.cpu.branchPred.condPredicted           1707474                       # Number of conditional branches predicted (Count)
+system.cpu.branchPred.condIncorrect              1054                       # Number of conditional branches incorrect (Count)
+system.cpu.iew.iqFullEvents                    819012                       # Number of times the IQ has become full, causing a stall (Count)
+system.cpu.thread_0.numInsts                 28126983                       # Number of Instructions committed (Count)
+system.cpu.thread_0.numOps                   36592142                       # Number of Ops committed (Count)
+system.cpu.thread_0.numMemRefs                      0                       # Number of Memory References (Count)
+
+--- Experiment 4: SMT (int + mem threads) ---
+
